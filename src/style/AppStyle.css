@@ -1,0 +1,130 @@
+*{
+   margin:0;
+   padding:0;
+}
+body{
+  background-color:#888 ;
+  
+}
+.App {
+   margin: 0 auto;
+   max-width: 1350px;
+   /* position: relative; */
+   
+}
+
+nav.main_nav li {
+   list-style: none;
+   display: inline-block;
+   text-align: center;
+   width: 20%
+ }
+
+nav.main_nav a{
+   display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+   background-color: #444;
+   height: 35px;
+   border-bottom: 3px solid #444;
+   line-height: 35px;
+   color: white;
+   transition: 0.3s
+
+}
+
+nav.main_nav a:hover{
+   border-bottom: 3px solid red;
+}
+
+
+nav.main_nav .active{
+   color: aquamarine;
+}
+
+.components_background {
+  position: relative;
+   width: 100%;
+   height: 100%;
+   
+   background-color: #888;
+}
+
+main {
+  /* position: absolute; */
+  left:0;
+top:0;
+width: 100%;
+height: 100%;
+}
+
+form label {
+  display: inline-block;
+  text-align: center;
+}
+.input_form{
+  padding:3px 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input_form_narrow{
+  width: 90px;
+}
+
+.button_addToOrder{
+  width: 100px;
+  height: 40px;
+  background-color: cadetblue;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.4s;
+  /* box-shadow: none; */
+}
+.button_addToOrder:hover{
+  background-color: cyan;
+}
+
+.list{
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button_line_edit, .button_line_delete {
+  margin: 0 5px; 
+  background-color: cadetblue;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor:pointer;
+}
+.button_line_edit:hover{
+  background-color: cyan;
+}
+.button_line_delete:hover{
+  background-color: red;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,td{
+  text-align: center;
+  padding: 0 5px;
+}
+th{
+  font-size: 20px;
+}
+tr:nth-child(2n){
+  background-color: #bbb;
+}
+
+
+
