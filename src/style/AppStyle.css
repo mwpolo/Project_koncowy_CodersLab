@@ -1,14 +1,20 @@
 *{
    margin:0;
    padding:0;
+   outline:none;
 }
 body{
   background-color:#888 ;
   
 }
+
+input:focus{
+background-color: cyan;
+}
 .App {
    margin: 0 auto;
-   max-width: 1350px;
+   min-width: 1350px;
+   width: 1350px;
    /* position: relative; */
    
 }
@@ -50,12 +56,13 @@ nav.main_nav .active{
    background-color: #888;
 }
 
-main {
-  /* position: absolute; */
+.main_nav {
+  margin-bottom: 10px;
+  /* position: absolute;
   left:0;
 top:0;
 width: 100%;
-height: 100%;
+height: 100%; */
 }
 
 form label {
@@ -110,21 +117,62 @@ form label {
 .button_line_delete:hover{
   background-color: red;
 }
-
+div.table_window {
+  position: absolute;
+  top:20vh;
+  width: 60%;
+  height: 72vh;
+  overflow: auto;
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 th,td{
   text-align: center;
-  padding: 0 5px;
+  padding: 0 3px;
 }
 th{
-  font-size: 20px;
+  font-size: 18px;
+  background-color: rgb(12, 133, 207);
+  color: black;
 }
 tr:nth-child(2n){
   background-color: #bbb;
 }
 
+.button_resetOrder{
+  position: absolute;
+  right: 20px;
+  top: 46px;
+  width: 120px;
+  height: 46px;
+  padding: 4px 10px;
+  background-color: cadetblue;
+  border-radius: 60px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  /* animation: action 1s linear infinite; */
+  }
 
+  .button_resetOrder:hover{
+    animation: action 0.5s linear 3;
+    /* background-color: red; */
+
+  }
+  @keyframes action {
+    0% {
+      transform: scale(1);
+      background-color: red;
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+      background-color: red;
+    };
+  }
 

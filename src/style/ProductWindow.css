@@ -24,13 +24,13 @@ div.mini:hover{
 div.graphics_window{
   position: absolute;
   top: 20vh;
-  width: 45%;
-  height: 500px;
+  width: 40%;
+  height: 72vh;
   right:0;
   background-color:white;
   border: 2px solid black;
    display:flex;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
    box-sizing: border-box;
    overflow-x: hidden;

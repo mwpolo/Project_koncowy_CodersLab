@@ -12,6 +12,7 @@ class MakeOrder extends Component {
       size: '',
       color: '',
       quantity: '',
+      remarks: '',
       price: '',
     },
     order: []
@@ -34,6 +35,10 @@ class MakeOrder extends Component {
       alert(`\nNie podano nazwy produktu.\n\nProszę podać nazwę produktu.`);
       return;
     }
+    if (this.state.orderLine.name.includes('GB') && this.state.orderLine.remarks === '') {
+      alert(`\nNie dokonano wyboru między kulą a kryształem.\n\nProszę  wybrać kulę lub kryształ i wpisać to w polu Uwagi.`);
+      return;
+    }
     if (this.state.orderLine.size === '') {
       alert(`\nNie podano rozmiaru produktu.\n\nProszę podać rozmiar produktu.`);
       return;
@@ -47,9 +52,15 @@ class MakeOrder extends Component {
       return;
     }
 
-    let order = [...this.state.order, this.state.orderLine];
+    let order = [...this.state.order];
+    order.unshift(this.state.orderLine);
     console.log(this.state.orderLine.orderName);
     order = order.map(line => (line = { ...line, orderName: this.state.orderLine.orderName }))
+    console.log(this.props);
+    console.log(this.state.orderLine)
+
+    this.props.addLine(this.state.orderLine)
+
     this.setState({
       order
     })
@@ -79,14 +90,40 @@ class MakeOrder extends Component {
       order: newOrder
     })
   }
-  handlePickSpinner = (e) => {
+  handlePickItem = (e) => {
     // console.log(e.target.alt);
     console.log(e.target.dataset.code);
     console.log(e.target.dataset.name);
+    console.log(e.target.dataset.itemsize);
     let orderLine = { ...this.state.orderLine, name: e.target.dataset.name };
+    orderLine = { ...orderLine, size: e.target.dataset.itemsize };
     orderLine = { ...orderLine, code: e.target.dataset.code };
+    orderLine = { ...orderLine, ownCode: e.target.dataset.owncode };
+    orderLine = { ...orderLine, quantity: e.target.dataset.quantity };
+    orderLine = { ...orderLine, color: e.target.dataset.itemcolor };
+    orderLine = { ...orderLine, remarks: e.target.dataset.remarks };
+    console.log(orderLine);
     this.setState({
       orderLine
+    })
+  }
+
+  handleResetOrder = () => {
+    const answer = window.confirm('Czy na pewno chcesz zresetować całe zamówienie ?')
+    if (!answer) { return }
+    this.setState({
+      order: [],
+      orderLine: {
+        orderName: '',
+        code: '',
+        ownCode: '',
+        name: '',
+        size: '',
+        color: '',
+        quantity: '',
+        remarks: '',
+        price: '',
+      }
     })
 
   }
@@ -114,14 +151,17 @@ class MakeOrder extends Component {
                 value={this.state.orderLine.name}></input>
             </label>
             <label>Rozmiar  <br />
-              <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='size'></input>
+              <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='size' value={this.state.orderLine.size}></input>
             </label>
             <label>Ilość  <br />
-              <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='number' name='quantity'></input>
+              <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='quantity' value={this.state.orderLine.quantity}></input>
             </label>
 
             <label>Kolor  <br />
-              <input className='input_form' onChange={this.handleInputchange} type='text' name='color'></input>
+              <input className='input_form' onChange={this.handleInputchange} type='text' name='color' value={this.state.orderLine.color}></input>
+            </label>
+            <label>Uwagi  <br />
+              <input className='input_form' onChange={this.handleInputchange} type='text' name='remarks' value={this.state.orderLine.remarks}></input>
             </label>
             {/* <select>
               <option>jeden</option>
@@ -130,9 +170,10 @@ class MakeOrder extends Component {
             </select> */}
             <button type='submit' className='button_addToOrder'>Dodaj do zamówienia</button>
           </form>
+          <button onClick={this.handleResetOrder} className='button_resetOrder'>Reset zamówienia</button>
 
           <ListOrder order={this.state.order} handleDelete={this.handleDelete} handleLineChange={this.handleLineChange} />
-          <ProductWindow handlePickSpinner={this.handlePickSpinner} />
+          <ProductWindow handlePickItem={this.handlePickItem} />
         </div>
 
       </>
