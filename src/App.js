@@ -24,10 +24,10 @@ function App() {
         <div className="App">
           <nav className='main_nav'>
             <ul>
-              <li> <NavLink to='/makeOrder'>Utwórz zamówienie</NavLink></li>
-              <li> <NavLink to='/printOrder'>Drukuj zamówienie</NavLink></li>
-              <li> <NavLink to='/loadOrder'>Wczytaj zamówienie</NavLink></li>
-              <li> <NavLink to='/saveOrder'>Zapisz zamówienie</NavLink></li>
+              <li> <NavLink to='/makeOrder'>Tworzenie zamówienia</NavLink></li>
+              <li> <NavLink to='/printOrder'>Wydruk zamówienia</NavLink></li>
+              <li> <NavLink to='/loadOrder'>Wczytanie zamówienia</NavLink></li>
+              <li> <NavLink to='/saveOrder'>Zapis zamówienia</NavLink></li>
               <li> <NavLink to='/help'>Pomoc</NavLink></li>
             </ul>
           </nav>

@@ -1,14 +1,19 @@
 import React, { Component } from 'react'
+import ListOrderForPrint from '../containers/ListOrderForPrint'
 
 class PrintOrder extends Component {
-   state = {}
-   render() {
-      return (
-         <>
-            <h1>Drukowanie Zamówienia</h1>
-         </>
-      );
-   }
+  state = {}
+  handlePrint = () => {
+    window.print()
+  }
+  render() {
+    return (
+      <>
+        <button className='button_print' onClick={this.handlePrint}>Drukuj</button>
+        <ListOrderForPrint />
+      </>
+    );
+  }
 }
 
 export default PrintOrder;

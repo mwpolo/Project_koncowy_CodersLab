@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
+const ListOrderForPrint = ({ order }) => {
   console.log(order);
 
   if (order.length) {
@@ -12,9 +12,9 @@ const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
         <h2>
           Numer Zamówienia:  {order[0].orderName === '' ? 'Brak numeru zamówienia' : order[0].orderName}
         </h2>
-        <div className="table_window">
+        <div >
 
-          <table className='table'>
+          <table className='tableToPrint'>
             <thead>
               <tr>
                 <th>Lp.</th>
@@ -39,8 +39,6 @@ const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
                     <td>{item.quantity}</td>
                     <td>{item.color}</td>
                     <td>{item.remarks}</td>
-                    <td><button onClick={() => handleChangeLine(index)} className='button_line_edit'>Zmień</button></td>
-                    <td><button onClick={() => deleteLine(index)} className='button_line_delete'>Usuń</button></td>
                   </tr>
 
                 </>
@@ -58,4 +56,4 @@ const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
 
 }
 
-export default ListOrder;
+export default ListOrderForPrint;

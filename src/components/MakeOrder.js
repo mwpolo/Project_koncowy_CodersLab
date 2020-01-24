@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import ListOrder from './ListOrder';
+import ListOrder from '../containers/ListOrder';
 import ProductWindow from './ProductWindow';
+import store from '../redux/store'
 
 class MakeOrder extends Component {
   state = {
@@ -15,7 +16,7 @@ class MakeOrder extends Component {
       remarks: '',
       price: '',
     },
-    order: []
+
   }
 
   handleInputchange = (e) => {
@@ -52,44 +53,17 @@ class MakeOrder extends Component {
       return;
     }
 
-    let order = [...this.state.order];
-    order.unshift(this.state.orderLine);
-    console.log(this.state.orderLine.orderName);
-    order = order.map(line => (line = { ...line, orderName: this.state.orderLine.orderName }))
-    console.log(this.props);
-    console.log(this.state.orderLine)
-
     this.props.addLine(this.state.orderLine)
 
-    this.setState({
-      order
-    })
-
   }
 
-  handleDelete = (index) => {
-    console.log(index);
-    let newOrder = [...this.state.order];
-    newOrder.splice(index, 1);
+  handleChangeLine = (index) => {
     this.setState({
-      order: newOrder
+      orderLine: store.getState().order[index]
     })
+    this.props.deleteLine(index);
   }
 
-  handleLineChange = (index) => {
-    let lineToChange = [...this.state.order];
-    console.log(lineToChange[index]);
-    lineToChange = lineToChange[index];
-    this.setState({
-      orderLine: lineToChange
-
-    })
-    let newOrder = [...this.state.order];
-    newOrder.splice(index, 1);
-    this.setState({
-      order: newOrder
-    })
-  }
   handlePickItem = (e) => {
     // console.log(e.target.alt);
     console.log(e.target.dataset.code);
@@ -102,17 +76,19 @@ class MakeOrder extends Component {
     orderLine = { ...orderLine, quantity: e.target.dataset.quantity };
     orderLine = { ...orderLine, color: e.target.dataset.itemcolor };
     orderLine = { ...orderLine, remarks: e.target.dataset.remarks };
-    console.log(orderLine);
+    // console.log(orderLine);
     this.setState({
       orderLine
     })
   }
 
   handleResetOrder = () => {
-    const answer = window.confirm('Czy na pewno chcesz zresetować całe zamówienie ?')
-    if (!answer) { return }
+    const answer = window.prompt('Jeśli chcesz zresetować całe zamówienie wpisz "tak"');
+    console.log(answer);
+    if (answer === null) { return }
+    else if (answer.toUpperCase() !== 'TAK') { return }
+
     this.setState({
-      order: [],
       orderLine: {
         orderName: '',
         code: '',
@@ -125,11 +101,11 @@ class MakeOrder extends Component {
         price: '',
       }
     })
-
+    this.props.resetOrder();
   }
 
   render() {
-    localStorage.setItem("currentOrder", JSON.stringify(this.state.order));
+    // localStorage.setItem("currentOrder", JSON.stringify(this.state.order));
     return (
       <>
         <div className="components_background">
@@ -172,7 +148,7 @@ class MakeOrder extends Component {
           </form>
           <button onClick={this.handleResetOrder} className='button_resetOrder'>Reset zamówienia</button>
 
-          <ListOrder order={this.state.order} handleDelete={this.handleDelete} handleLineChange={this.handleLineChange} />
+          <ListOrder handleChangeLine={this.handleChangeLine} />
           <ProductWindow handlePickItem={this.handlePickItem} />
         </div>
 

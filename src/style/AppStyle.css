@@ -176,3 +176,28 @@ tr:nth-child(2n){
     };
   }
 
+.button_print{
+  width: 100px;
+  height: 40px;
+  background-color: cadetblue;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.4s;
+  /* box-shadow: none; */
+}
+.button_print:hover{
+  background-color: cyan;
+}
+
+.tableToPrint td, .tableToPrint th{
+  padding: 3px 20px;
+}
+
+@media print {
+  .main_nav {display: none;}
+  .button_print {display: none;}
+}
