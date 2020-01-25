@@ -201,3 +201,20 @@ tr:nth-child(2n){
   .main_nav {display: none;}
   .button_print {display: none;}
 }
+
+.button_load_last_order{
+  width: 200px;
+  height: 30px;
+  background-color: cadetblue;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.3s;
+  /* box-shadow: none; */
+}
+.button_load_last_order:hover{
+  background-color: cyan;
+}

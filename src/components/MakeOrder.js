@@ -53,15 +53,17 @@ class MakeOrder extends Component {
       return;
     }
 
-    this.props.addLine(this.state.orderLine)
-
+    this.props.addLine(this.state.orderLine);
+    localStorage.setItem("lastOrder", JSON.stringify(store.getState()));
   }
 
   handleChangeLine = (index) => {
     this.setState({
       orderLine: store.getState().order[index]
     })
+
     this.props.deleteLine(index);
+    localStorage.setItem("lastOrder", JSON.stringify(store.getState()));
   }
 
   handlePickItem = (e) => {
@@ -84,7 +86,7 @@ class MakeOrder extends Component {
 
   handleResetOrder = () => {
     const answer = window.prompt('Jeśli chcesz zresetować całe zamówienie wpisz "tak"');
-    console.log(answer);
+    // console.log(answer);
     if (answer === null) { return }
     else if (answer.toUpperCase() !== 'TAK') { return }
 
@@ -102,6 +104,7 @@ class MakeOrder extends Component {
       }
     })
     this.props.resetOrder();
+    localStorage.setItem("lastOrder", JSON.stringify(store.getState()));
   }
 
   render() {

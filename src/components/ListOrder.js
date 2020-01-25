@@ -1,8 +1,12 @@
 import React from 'react';
+import store from '../redux/store'
 
 const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
-  console.log(order);
 
+  const handleDeleteLine = (index) => {
+    deleteLine(index);
+    localStorage.setItem("lastOrder", JSON.stringify(store.getState()));
+  }
   if (order.length) {
     console.log(order[0].orderName);
 
@@ -40,7 +44,7 @@ const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
                     <td>{item.color}</td>
                     <td>{item.remarks}</td>
                     <td><button onClick={() => handleChangeLine(index)} className='button_line_edit'>Zmień</button></td>
-                    <td><button onClick={() => deleteLine(index)} className='button_line_delete'>Usuń</button></td>
+                    <td><button onClick={() => handleDeleteLine(index)} className='button_line_delete'>Usuń</button></td>
                   </tr>
 
                 </>

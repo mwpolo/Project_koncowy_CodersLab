@@ -10,7 +10,7 @@ import store from './redux/store';
 import MakeOrder from './containers/MakeOrder';
 
 import PrintOrder from './components/PrintOrder';
-import LoadOrder from './components/LoadOrder';
+import LoadOrder from './containers/LoadOrder';
 import Help from './components/Help';
 import NotFound from './components/NotFound';
 import Main from './components/Main';
