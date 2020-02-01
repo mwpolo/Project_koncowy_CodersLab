@@ -35,3 +35,16 @@ div.graphics_window{
    box-sizing: border-box;
    overflow-x: hidden;
 }
+
+.products_selection{
+  position: absolute;
+  left: 60%;
+  top:15vh;
+  font-weight: bold;
+  font-size: 18px;
+}
+.products_selection select{
+  margin-left:10px;
+  font-size: 16px;
+  padding: 3px
+}

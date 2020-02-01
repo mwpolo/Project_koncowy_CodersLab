@@ -16,7 +16,7 @@ class MakeOrder extends Component {
       remarks: '',
       price: '',
     },
-
+    productsSelection: 'wszystkie produkty',
   }
 
   handleInputchange = (e) => {
@@ -37,7 +37,7 @@ class MakeOrder extends Component {
       return;
     }
     if (this.state.orderLine.name.includes('GB') && this.state.orderLine.remarks === '') {
-      alert(`\nNie dokonano wyboru między kulą a kryształem.\n\nProszę  wybrać kulę lub kryształ i wpisać to w polu Uwagi.`);
+      alert(`\nNie dokonano wyboru między akcesoriami kulą lub kryształem.\n\nProszę  wybrać kulę, kryształ lub znak " - " i wpisać to w polu Uwagi.`);
       return;
     }
     if (this.state.orderLine.size === '') {
@@ -105,6 +105,13 @@ class MakeOrder extends Component {
     })
     this.props.resetOrder();
     localStorage.setItem("lastOrder", JSON.stringify(store.getState()));
+  };
+
+  handleProductSelection = (e) => {
+    console.log(e.target.value);
+    this.setState({
+      productsSelection: e.target.value
+    })
   }
 
   render() {
@@ -114,45 +121,66 @@ class MakeOrder extends Component {
         <div className="components_background">
 
           <form onSubmit={this.handleSubmit}>
-            <label> {`Numer Zamowienia: `}
+            <label className='form_label'> {`Numer Zamowienia: `}
               <input className='input_form' onChange={this.handleInputchange} type='text' name='orderName'></input>
             </label>
             <br />
-            <label> Edik Kod  <br />
+            <label className='form_label'> Edik Kod  <br />
               <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='ownCode' value={this.state.orderLine.ownCode}></input>
             </label>
-            <label> Kod  <br />
+            <label className='form_label'> Kod  <br />
               <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='code' value={this.state.orderLine.code}></input>
             </label>
 
-            <label>Nazwa  <br />
+            <label className='form_label'>Nazwa  <br />
               <input className='input_form' onChange={this.handleInputchange} type='text' name='name'
                 value={this.state.orderLine.name}></input>
             </label>
-            <label>Rozmiar  <br />
+            <label className='form_label'>Rozmiar  <br />
               <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='size' value={this.state.orderLine.size}></input>
             </label>
-            <label>Ilość  <br />
+            <label className='form_label'>Ilość  <br />
               <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='quantity' value={this.state.orderLine.quantity}></input>
             </label>
 
-            <label>Kolor  <br />
+            <label className='form_label'>Kolor  <br />
               <input className='input_form' onChange={this.handleInputchange} type='text' name='color' value={this.state.orderLine.color}></input>
             </label>
-            <label>Uwagi  <br />
+            <label className='form_label'>Uwagi  <br />
               <input className='input_form' onChange={this.handleInputchange} type='text' name='remarks' value={this.state.orderLine.remarks}></input>
             </label>
-            {/* <select>
-              <option>jeden</option>
-              <option>dwa</option>
-              <option>trzy</option>
-            </select> */}
+
             <button type='submit' className='button_addToOrder'>Dodaj do zamówienia</button>
           </form>
           <button onClick={this.handleResetOrder} className='button_resetOrder'>Reset zamówienia</button>
 
+          <label onChange={this.handleProductSelection} className='products_selection'>Pokaż produkty
+            <select >
+              <option value="wszystkie produkty">wszystkie produkty</option>
+              <option value="Spinery Kolekcja 3D Multikolor 10'">Spinery Kolekcja 3D Multikolor 10'</option>
+              <option value="Spinery Kolekcja GB Multikolor 12'">Spinery Kolekcja GB Multikolor 12'</option>
+              <option value="Spinery Kolekcja GB Multikolor 10'">Spinery Kolekcja GB Multikolor 10'</option>
+              <option value="Spinery Kolekcja 2D Multikolor 10'">Spinery Kolekcja 2D Multikolor 10'</option>
+              <option value="Spinery Kolekcja 2D Multikolor 6'">Spinery Kolekcja 2D Multikolor 6'</option>
+              <option>inne</option>
+            </select>
+          </label>
+
+          <label className='sortOrder'>
+            Sortuj zamówienie wg:
+            <br />
+            <select name="" id="">
+              <option value="None"> Wybierz </option>
+              <option value="EdikCode">Kod Edik </option>
+              <option value="Code">Kod</option>
+              <option value="Name">Nazwa</option>
+              <option value="Size">Rozmiar</option>
+              <option value="Color">Kolor</option>
+              <option value="Product">Rodzaj produktu</option>
+            </select>
+          </label>
           <ListOrder handleChangeLine={this.handleChangeLine} />
-          <ProductWindow handlePickItem={this.handlePickItem} />
+          <ProductWindow handlePickItem={this.handlePickItem} selection={this.state.productsSelection} />
         </div>
 
       </>
