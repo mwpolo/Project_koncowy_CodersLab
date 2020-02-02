@@ -14,7 +14,7 @@ const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
       <>
 
         <h2>
-          Numer Zamówienia:  {order[0].orderName === '' ? 'Brak numeru !' : order[0].orderName}
+          {order[0].orderName === '' ? 'Brak numeru !' : order[0].orderName}
         </h2>
         <div className="table_window">
 

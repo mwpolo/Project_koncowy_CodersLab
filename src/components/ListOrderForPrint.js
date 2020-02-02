@@ -1,18 +1,19 @@
 import React from 'react';
 
 const ListOrderForPrint = ({ order }) => {
-  console.log(order);
+  // console.log(order);
 
   if (order.length) {
-    console.log(order[0].orderName);
+    // console.log(order[0].orderName);
 
     return (
       <>
 
         <h2>
-          Numer Zamówienia:  {order[0].orderName === '' ? 'Brak numeru zamówienia' : order[0].orderName}
+          {order[0].orderName === '' ? 'Brak numeru zamówienia' : order[0].orderName}
         </h2>
         <div >
+          <br />
 
           <table className='tableToPrint'>
             <thead>

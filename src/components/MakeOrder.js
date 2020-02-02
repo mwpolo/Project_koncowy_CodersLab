@@ -122,7 +122,7 @@ class MakeOrder extends Component {
 
           <form onSubmit={this.handleSubmit}>
             <label className='form_label'> {`Numer Zamowienia: `}
-              <input className='input_form' onChange={this.handleInputchange} type='text' name='orderName'></input>
+              <input className='input_form' onChange={this.handleInputchange} type='text' name='orderName' style={{ width: '350px' }}></input>
             </label>
             <br />
             <label className='form_label'> Edik Kod  <br />
@@ -140,7 +140,7 @@ class MakeOrder extends Component {
               <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='size' value={this.state.orderLine.size}></input>
             </label>
             <label className='form_label'>Ilość  <br />
-              <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='quantity' value={this.state.orderLine.quantity}></input>
+              <input className='input_form input_form_narrow' onChange={this.handleInputchange} type='text' name='quantity' value={this.state.orderLine.quantity} autoFocus></input>
             </label>
 
             <label className='form_label'>Kolor  <br />

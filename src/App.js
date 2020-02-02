@@ -11,6 +11,7 @@ import MakeOrder from './containers/MakeOrder';
 
 import PrintOrder from './components/PrintOrder';
 import LoadOrder from './containers/LoadOrder';
+import SaveOrder from './components/SaveOrder';
 import Help from './components/Help';
 import NotFound from './components/NotFound';
 import Main from './components/Main';
@@ -37,7 +38,7 @@ function App() {
               <Route path='/makeOrder' component={MakeOrder} />
               <Route path='/printOrder' component={PrintOrder} />
               <Route path='/loadOrder' component={LoadOrder} />
-              <Route path='/saveOrder' component={LoadOrder} />
+              <Route path='/saveOrder' component={SaveOrder} />
               <Route path='/Help' component={Help} />
               <Route component={NotFound} />
             </Switch>

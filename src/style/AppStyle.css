@@ -250,3 +250,52 @@ tr:nth-child(2n){
   font-size: 16px;
   padding: 3px
 }
+
+/* **********Style of <SaveOrder /> */
+.file_to_save_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 190px;
+  position: fixed;
+  top: 10vh;
+  right: 2vw;
+  /* background-color: cadetblue; */
+}
+.file_to_save_box label{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.file_to_save_box input{
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 320px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.file_to_save_box a {
+  align-self: center;
+  display: inline-block;
+  padding: 0 20px;
+  background-color: cadetblue;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration:none ;
+  text-align: center;
+  color: black;
+  transition: 0.3s;
+}
+
+.file_to_save_box a:hover {
+  background-color: aquamarine;
+}
+
+/* End of style <SaveOrder /> */
