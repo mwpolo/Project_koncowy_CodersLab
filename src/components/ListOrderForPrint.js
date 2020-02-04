@@ -3,7 +3,7 @@ import React from 'react';
 const ListOrderForPrint = ({ order }) => {
   // console.log(order);
 
-  if (order.length) {
+  if (order.length > 0) {
     // console.log(order[0].orderName);
 
     return (

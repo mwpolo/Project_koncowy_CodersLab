@@ -32,11 +32,13 @@ class SaveOrder extends Component {
 
   render() {
     // console.log(this.data);
+
+
     return (
       <>
         <div className='file_to_save_box'>
           <label >
-            Wpisz nazwę pliku, w którym <br />zostanie zapisane bieżące <br />zamówienie w formacie .csv
+            Wpisz nazwę pliku, w którym <br />zostanie zapisane bieżące <br />zamówienie w formacie " .csv "
 
           <br />
             <input value={this.state.filename} onChange={this.handleFileNameChange} />
@@ -46,12 +48,16 @@ class SaveOrder extends Component {
           <CSVLink
             data={this.data}
             // headers={this.headers}
-            filename={this.state.filename + '.csv'}
+            filename={this.state.filename.length >= 3 ? this.state.filename + '.csv' : `Zamówienie z dnia ${new Date().toLocaleString()}.csv`}
 
             onClick={() => {
-              alert(`Plik "${this.state.filename}.csv" zostanie zapisany w katalogu "Pobrane"`);
+              let filename = this.state.filename;
+              if (filename.length <= 3) {
+                filename = `Zamówienie z dnia ${new Date().toLocaleString()}`
+              }
+              alert(`Plik "${filename}.csv" zostanie zapisany w katalogu "Pobrane"`);
             }}>
-            Zapisz plik na dysk
+            Zapisz plik.csv na dysk
         </CSVLink>
         </div>
 

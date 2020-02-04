@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { ADD_ORDER_LINE, RESET_ORDER, DELETE_ORDER_LINE, CHANGE_ORDER_LINE, ADD_WHOLE_ORDER } from './actions'
+import { ADD_ORDER_LINE, RESET_ORDER, DELETE_ORDER_LINE, CHANGE_ORDER_LINE, ADD_WHOLE_ORDER, LOAD_ORDER_FROM_HDD } from './actions'
 
 const order = (state = [], action) => {
   // console.log(action);
@@ -26,7 +26,12 @@ const order = (state = [], action) => {
   if (action.type === ADD_WHOLE_ORDER) {
     console.log('Reducer dodanie localStorage', action.payload);
 
-    return [...state, ...action.payload]
+    return [...action.payload]
+  }
+
+  if (action.type === LOAD_ORDER_FROM_HDD) {
+    console.log(action.payload);
+    return [...action.payload]
   }
   return state
 }

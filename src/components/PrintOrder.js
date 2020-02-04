@@ -9,7 +9,7 @@ class PrintOrder extends Component {
   render() {
     return (
       <>
-        <button className='button_print' onClick={this.handlePrint}>Drukuj</button>
+        <button className='button_print' onClick={this.handlePrint}>Drukuj zamówienie</button>
         <ListOrderForPrint />
       </>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/ProductWindow.css';
+// import '../style/ProductWindow.css';
 import itemsData from './ItemsData'
 
 const ProductWindow = (props) => {

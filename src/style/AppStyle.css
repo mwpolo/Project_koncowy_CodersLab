@@ -183,15 +183,18 @@ tr:nth-child(2n){
   }
 
 .button_print{
-  width: 100px;
+  /* width: 100px; */
   height: 40px;
   background-color: cadetblue;
   cursor: pointer;
   border: 2px solid black;
   border-radius: 25px;
+  margin: 10px 0;
   margin-left: 20px;
+    padding: 0 20px;
   font-family: arial;
   font-weight: bold;
+  font-size: 18px;
   transition: 0.4s;
   /* box-shadow: none; */
 }
@@ -207,15 +210,22 @@ tr:nth-child(2n){
   .main_nav {display: none;}
   .button_print {display: none;}
 }
+/********** Style of <LoadOrder />  */
+.load_orders_buttons{
+  display: flex;
+}
 
 .button_load_last_order{
-  width: 200px;
-  height: 30px;
+  /* width: 200px; */
+  height: 40px;
   background-color: cadetblue;
   cursor: pointer;
   border: 2px solid black;
   border-radius: 25px;
+  margin: 10px 0;
   margin-left: 20px;
+  padding: 0 20px;
+  font-size: 18px;
   font-family: arial;
   font-weight: bold;
   transition: 0.3s;
@@ -224,6 +234,31 @@ tr:nth-child(2n){
 .button_load_last_order:hover{
   background-color: cyan;
 }
+
+.btn_loadOrderFromHDD{
+  /* position : absolute;
+  top: 10vh;
+  left: 50vw; */
+  display: inline-block;
+  height: 40px;
+  background-color: cadetblue;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 10px 0;
+  margin-left: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.3s;
+  /* box-shadow: none; */
+}
+.btn_loadOrderFromHDD:hover{
+  background-color: cyan;
+}
+/* End of style <LoadOrder/> */
+
 /* Style of <Main />  */
 .components_background a{
   text-decoration: none;
@@ -296,6 +331,84 @@ tr:nth-child(2n){
 
 .file_to_save_box a:hover {
   background-color: aquamarine;
-}
+ }
 
 /* End of style <SaveOrder /> */
+
+/* **********Style of <NotFound /> */
+
+.not_found a{
+   display: inline-block;
+  padding: 0 20px;
+  background-color: cadetblue;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration:none ;
+  text-align: center;
+  color: black;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.not_found a:hover{
+background-color: cyan;
+}
+/* End of style <NotFound /> */
+
+/* Style of <ProductWindow />  */
+img {
+  width: 100px;
+  height: 100px;
+}
+img:hover{
+  cursor:pointer;
+}
+
+div.mini{
+ 
+  width:100px;
+  height: 130px;
+  text-align: center;
+  font-weight: bold;
+  transition:0.3s;
+  background-color: white;
+}
+
+div.mini:hover{
+  transform: scale(1.3);
+}
+
+
+div.graphics_window{
+ position: absolute;
+ top: 20vh;
+ width: 40%;
+ height: 72vh;
+ right:0;
+ background-color:white;
+ border: 2px solid black;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.products_selection{
+ position: absolute;
+ left: 60%;
+ top:15vh;
+ font-weight: bold;
+ font-size: 18px;
+}
+.products_selection select{
+ margin-left:10px;
+ font-size: 16px;
+ padding: 3px
+}
+
+/* End of style <ProductWindow /> */
