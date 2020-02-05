@@ -15,8 +15,10 @@ class MakeOrder extends Component {
       quantity: '',
       remarks: '',
       price: '',
+      idName: '',
     },
     productsSelection: 'wszystkie produkty',
+
   }
 
   handleInputchange = (e) => {
@@ -68,9 +70,9 @@ class MakeOrder extends Component {
 
   handlePickItem = (e) => {
     // console.log(e.target.alt);
-    console.log(e.target.dataset.code);
-    console.log(e.target.dataset.name);
-    console.log(e.target.dataset.itemsize);
+    // console.log(e.target.dataset.code);
+    // console.log(e.target.dataset.name);
+    console.log(e.target.dataset.idname);
     let orderLine = { ...this.state.orderLine, name: e.target.dataset.name };
     orderLine = { ...orderLine, size: e.target.dataset.itemsize };
     orderLine = { ...orderLine, code: e.target.dataset.code };
@@ -78,6 +80,7 @@ class MakeOrder extends Component {
     orderLine = { ...orderLine, quantity: e.target.dataset.quantity };
     orderLine = { ...orderLine, color: e.target.dataset.itemcolor };
     orderLine = { ...orderLine, remarks: e.target.dataset.remarks };
+    orderLine = { ...orderLine, idName: e.target.dataset.idname };
     // console.log(orderLine);
     this.setState({
       orderLine
@@ -101,6 +104,7 @@ class MakeOrder extends Component {
         quantity: '',
         remarks: '',
         price: '',
+        idName: '',
       }
     })
     this.props.resetOrder();
@@ -108,10 +112,15 @@ class MakeOrder extends Component {
   };
 
   handleProductSelection = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     this.setState({
       productsSelection: e.target.value
     })
+  }
+
+  handleSortOrder = (e) => {
+    // console.log(e.target.value); 
+    this.props.sortOrder(e.target.value);
   }
 
   render() {
@@ -122,7 +131,10 @@ class MakeOrder extends Component {
 
           <form onSubmit={this.handleSubmit}>
             <label className='form_label'> {`Numer Zamowienia: `}
-              <input className='input_form' onChange={this.handleInputchange} type='text' name='orderName' style={{ width: '350px' }} autoFocus></input>
+              <input className='input_form' onChange={this.handleInputchange} type='text' name='orderName' style={{ width: '350px', marginRight: '20px' }} autoFocus></input>
+            </label>
+            <label className='form_label'> {`Rodzaj produktu: `}
+              <input className='input_form' onChange={this.handleInputchange} type='text' name='idName' style={{ width: '350px' }} value={this.state.orderLine.idName} ></input>
             </label>
             <br />
             <label className='form_label'> Edik Kod  <br />
@@ -169,14 +181,14 @@ class MakeOrder extends Component {
           <label className='sortOrder'>
             Sortuj zamówienie wg:
             <br />
-            <select name="" id="">
+            <select name="" id="" onChange={this.handleSortOrder}>
               <option value="None"> Wybierz </option>
-              <option value="EdikCode">Kod Edik </option>
-              <option value="Code">Kod</option>
-              <option value="Name">Nazwa</option>
-              <option value="Size">Rozmiar</option>
-              <option value="Color">Kolor</option>
-              <option value="Product">Rodzaj produktu</option>
+              <option value="ownCode">Kod Edik </option>
+              <option value="code">Kod</option>
+              <option value="name">Nazwa</option>
+              <option value="size">Rozmiar</option>
+              <option value="color">Kolor</option>
+              <option value="idName">Rodzaj produktu</option>
             </select>
           </label>
           <ListOrder handleChangeLine={this.handleChangeLine} />

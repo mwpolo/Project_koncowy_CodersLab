@@ -6,6 +6,7 @@ const DELETE_ORDER_LINE = 'DELETE_ORDER_LINE';
 const CHANGE_ORDER_LINE = 'CHANGE_ORDER_LINE';
 const ADD_WHOLE_ORDER = 'ADD_WHOLE_ORDER';
 const LOAD_ORDER_FROM_HDD = 'LOAD_ORDER_FROM_HDD';
+const SORT_ORDER = 'SORT_ORDER';
 
 
 const addLine = (payload) => ({
@@ -32,6 +33,11 @@ const addWholeOrder = (payload) => ({
   payload,
 });
 
+const sortOrder = (payload) => ({
+  type: SORT_ORDER,
+  payload,
+})
+
 const loadOrderFromHDD = (files) => (dispatch) => {
   var reader = new FileReader();
   reader.onload = function (e) {
@@ -46,6 +52,6 @@ const loadOrderFromHDD = (files) => (dispatch) => {
 }
 
 export {
-  ADD_ORDER_LINE, RESET_ORDER, DELETE_ORDER_LINE, CHANGE_ORDER_LINE, ADD_WHOLE_ORDER, LOAD_ORDER_FROM_HDD,
-  addLine, resetOrder, deleteLine, changeLine, addWholeOrder, loadOrderFromHDD
+  ADD_ORDER_LINE, RESET_ORDER, DELETE_ORDER_LINE, CHANGE_ORDER_LINE, ADD_WHOLE_ORDER, LOAD_ORDER_FROM_HDD, SORT_ORDER,
+  addLine, resetOrder, deleteLine, changeLine, addWholeOrder, loadOrderFromHDD, sortOrder
 }
