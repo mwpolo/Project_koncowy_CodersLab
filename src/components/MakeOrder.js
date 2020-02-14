@@ -189,6 +189,9 @@ class MakeOrder extends Component {
               <option value="Spinery Kolekcja 2D Multikolor 10'">Spinery Kolekcja 2D Multikolor 10'</option>
               <option value="Spinery Kolekcja 2D Multikolor 6'">Spinery Kolekcja 2D Multikolor 6'</option>
               <option value="Kolekcja Świąteczna">Kolekcja Świąteczna</option>
+              <option value="Kolekcja 2D Jeden Kolor 12'">Kolekcja 2D Jeden Kolor 12'</option>
+              <option value="Kolekcja 2D Jeden Kolor 10'">Kolekcja 2D Jeden Kolor 10'</option>
+              <option value="Kolekcja 2D Jeden Kolor 6'">Kolekcja 2D Jeden Kolor 6'</option>
               <option value="Kolekcja Cristal Twister 25cm">Kolekcja Cristal Twister 25cm</option>
               <option value="Kolekcja Cristal Twister 16cm">Kolekcja Cristal Twister 16cm</option>
               <option value="Kolekcja Spiral Tails">Kolekcja Spiral Tails</option>

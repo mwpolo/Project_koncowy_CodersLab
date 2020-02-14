@@ -22,7 +22,7 @@ const ProductWindow = (props) => {
               onClick={props.handlePickItem}>
               <img src={item.imgSource} alt={item.dataName}
                 data-owncode={item.dataOwncode} data-code={item.dataCode} data-name={item.dataName} data-itemsize={item.dataItemsize} data-itemcolor={item.dataItemcolor} data-quantity='' data-remarks={item.dataRemarks} data-idname={item.idName} />
-              <span>{item.dataName}</span>
+              <span>{item.dataName} {item.dataItemcolor} {item.dataRemarks}</span>
             </div>
           )
         } else {
