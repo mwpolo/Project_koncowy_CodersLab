@@ -21,7 +21,7 @@ const ProductWindow = (props) => {
             <div key={index} className='mini'
               onClick={props.handlePickItem}>
               <img src={item.imgSource} alt={item.dataName}
-                data-owncode={item.dataOwncode} data-code={item.dataCode} data-name={item.dataName} data-itemsize={item.dataItemsize} data-itemcolor={item.dataItemcolor} data-quantity='' data-remarks='' data-idname={item.idName} />
+                data-owncode={item.dataOwncode} data-code={item.dataCode} data-name={item.dataName} data-itemsize={item.dataItemsize} data-itemcolor={item.dataItemcolor} data-quantity='' data-remarks={item.dataRemarks} data-idname={item.idName} />
               <span>{item.dataName}</span>
             </div>
           )

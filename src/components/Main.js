@@ -22,10 +22,10 @@ const Main = () => {
         lub klikając w dowolnej chwili przycisk POMOC u góry ekranu.</h2>
 
       <div className="products_main_page">
-        <img src="../normal_spinners/1525 Kwiat GB.jpg" alt="Kwiat GB" />
-        <img src="../normal_spinners/TWC120-4M Motyl2.JPG" alt="Motyl" />
-        <img src="../normal_spinners/ED0035 Choinka.jpg" alt="Choinka" />
-        <img src="../normal_spinners/TWC250-7M Koliber.JPG" alt="Koliber" />
+        <img src="./normal_spinners/1525 Kwiat GB.jpg" alt="Kwiat GB" />
+        <img src="./normal_spinners/TWC120-4M Motyl2.JPG" alt="Motyl" />
+        <img src="./normal_spinners/ED0035 Choinka.jpg" alt="Choinka" />
+        <img src="./normal_spinners/TWC250-7M Koliber.JPG" alt="Koliber" />
       </div>
     </div>
 

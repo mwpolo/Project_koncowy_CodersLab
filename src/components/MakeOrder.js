@@ -30,6 +30,10 @@ class MakeOrder extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
+    //isNumber sprawdza czy w input quantity podano liczbę
+    function isNumber(n) {
+      return !isNaN(parseFloat(n)) && !isNaN(n - 0)
+    }
     if (this.state.orderLine.code === '') {
       alert(`\nNie podano kodu produktu.\n\nProszę podać kod produktu.`);
       return;
@@ -46,10 +50,15 @@ class MakeOrder extends Component {
       alert(`\nNie podano rozmiaru produktu.\n\nProszę podać rozmiar produktu.`);
       return;
     }
-    if (this.state.orderLine.quantity === '') {
-      alert(`\nNie podano ilości produktów.\n\nProszę podać ilość produktów.`);
+    if (
+      !isNumber(this.state.orderLine.quantity) ||
+      this.state.orderLine.quantity.includes('.') ||
+      this.state.orderLine.quantity.includes('-')
+    ) {
+      alert(`\nNie podano prawidłowej ilości produktów.\n\nProszę podać prawidłową ilość produktów.\n\nMusi to być liczba całkowita (nie ułamkowa) i dodatnia.`);
       return;
     }
+
     if (this.state.orderLine.color === '') {
       alert(`\nNie podano koloru produktów.\n\nProszę podać kolor produktów.`);
       return;
@@ -169,12 +178,21 @@ class MakeOrder extends Component {
           <label onChange={this.handleProductSelection} className='products_selection'>Pokaż produkty
             <select >
               <option value="wszystkie produkty">wszystkie produkty</option>
+              <option value="Spinery Kolekcja 3D Multikolor 12'">Spinery Kolekcja 3D Multikolor 12'</option>
               <option value="Spinery Kolekcja 3D Multikolor 10'">Spinery Kolekcja 3D Multikolor 10'</option>
               <option value="Spinery Kolekcja GB Multikolor 12'">Spinery Kolekcja GB Multikolor 12'</option>
               <option value="Spinery Kolekcja GB Multikolor 10'">Spinery Kolekcja GB Multikolor 10'</option>
+              <option value="Spinery Kolekcja GB Jeden Kolor 12'">Spinery Kolekcja GB Jeden Kolor 12'</option>
+              <option value="Spinery Kolekcja GB Jeden Kolor 10'">Spinery Kolekcja GB Jeden Kolor 10'</option>
+              <option value="Spinery Kolekcja GB Jeden Kolor 7'">Spinery Kolekcja GB Jeden Kolor 7'</option>
+              <option value="Spinery Kolekcja 2D Multikolor 12'">Spinery Kolekcja 2D Multikolor 12'</option>
               <option value="Spinery Kolekcja 2D Multikolor 10'">Spinery Kolekcja 2D Multikolor 10'</option>
               <option value="Spinery Kolekcja 2D Multikolor 6'">Spinery Kolekcja 2D Multikolor 6'</option>
-              <option>inne</option>
+              <option value="Kolekcja Świąteczna">Kolekcja Świąteczna</option>
+              <option value="Kolekcja Cristal Twister 25cm">Kolekcja Cristal Twister 25cm</option>
+              <option value="Kolekcja Cristal Twister 16cm">Kolekcja Cristal Twister 16cm</option>
+              <option value="Kolekcja Spiral Tails">Kolekcja Spiral Tails</option>
+              <option value='Akcesoria'>Akcesoria</option>
             </select>
           </label>
 

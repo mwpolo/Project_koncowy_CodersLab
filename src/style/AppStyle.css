@@ -279,10 +279,10 @@ tr:nth-child(2n){
   height: 100%;
   background-color: white;
 }
-div.products_main_page img{
+div.products_main_page>img{
   width: 25%;
-  height: auto;
   cursor: auto;
+  max-height: fit-content;
 }
 
 /* End of style <Main/> */
@@ -290,7 +290,7 @@ div.products_main_page img{
 
 .sortOrder{
   position: absolute;
-  left: 43%;
+  left: 45%;
   top:15vh;
   font-weight: bold;
   font-size: 18px;
@@ -377,17 +377,21 @@ background-color: cyan;
 
 /* Style of <ProductWindow />  */
 img {
-  width: 100px;
-  height: 100px;
+  display: block;
+  max-width: 100px;
+  max-height: 100px;
 }
 img:hover{
   cursor:pointer;
 }
 
 div.mini{
- 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
   width:100px;
-  height: 130px;
+  min-height: 150px;
+  max-height: 180px;
   text-align: center;
   font-weight: bold;
   transition:0.3s;
@@ -416,7 +420,7 @@ div.graphics_window{
 
 .products_selection{
  position: absolute;
- left: 60%;
+ left: 65%;
  top:15vh;
  font-weight: bold;
  font-size: 18px;
