@@ -23,7 +23,7 @@ nav.main_nav li {
    list-style: none;
    display: inline-block;
    text-align: center;
-   width: 20%
+   width: 16.66%
  }
 
 nav.main_nav a{
@@ -206,9 +206,21 @@ tr:nth-child(2n){
   padding: 3px 20px;
 }
 
+.list>td{
+  text-align: left;
+}
+.list>td:nth-of-type(5), .list>td:nth-of-type(6){
+  text-align: center;
+}
+
 @media print {
   .main_nav {display: none;}
   .button_print {display: none;}
+}
+
+.ListOrderForPrint_Wrapper{
+  max-width:70%;
+  
 }
 /********** Style of <LoadOrder />  */
 .load_orders_buttons{
@@ -432,3 +444,20 @@ div.graphics_window{
 }
 
 /* End of style <ProductWindow /> */
+/* ******Style of <SummaryOrder/>********** */
+
+.printSummary span{
+  display:inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+  margin-bottom:5px;
+}
+
+.printSummary{
+  
+  max-width : 75%;
+
+}
+
+/* ******End of style <SummaryOrder/> */

@@ -35,10 +35,17 @@ const order = (state = [], action) => {
   }
 
   if (action.type === SORT_ORDER) {
-    console.log('reducer dupa', action.payload);
+    // console.log('reducer dupa', action.payload);
     let newState = [...state];
-    if (action.payload !== 'None' && action.payload !== 'Product') {
-      newState.sort((a, b) => a[action.payload].localeCompare(b[action.payload]));
+    if (action.payload !== 'None') {
+      if (action.payload !== 'size') {
+        newState.sort((a, b) => a[action.payload].localeCompare(b[action.payload]));
+      } else {
+        newState.sort((a, b) => {
+          return parseFloat(a[action.payload]) - parseFloat(b[action.payload]);
+        });
+      }
+
     }
     return newState
   }

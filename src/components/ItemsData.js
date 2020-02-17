@@ -283,7 +283,7 @@ const itemsData = [
     dataCode: "ED208",
     dataName: "MixSplash GB",
     dataItemsize: "12",
-    dataItemcolor: "Multicolor",
+    dataItemcolor: "Multikolor",
     dataQuantity: "",
     dataRemarks: "",
   },
@@ -305,7 +305,7 @@ const itemsData = [
     dataCode: "ED209",
     dataName: "SuperSun GB",
     dataItemsize: "12",
-    dataItemcolor: "Multicolor",
+    dataItemcolor: "Multikolor",
     dataQuantity: "",
     dataRemarks: "",
   },
@@ -316,7 +316,7 @@ const itemsData = [
     dataCode: "1525",
     dataName: "Kwiat 2 kolory GB",
     dataItemsize: "12",
-    dataItemcolor: "Multicolor",
+    dataItemcolor: "Multikolor",
     dataQuantity: "",
     dataRemarks: "",
   },
@@ -327,7 +327,7 @@ const itemsData = [
     dataCode: "ED211",
     dataName: "Big GB",
     dataItemsize: "12",
-    dataItemcolor: "Multicolor",
+    dataItemcolor: "Multikolor",
     dataQuantity: "",
     dataRemarks: "kula 10cm",
   },
@@ -1270,7 +1270,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "",
     dataOwncode: "",
     dataCode: "",
@@ -1281,7 +1281,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "./mini_spinners/Mini ED128-1-7 kolczyk GB 7' jeden kolor.jpg",
     dataOwncode: "2307",
     dataCode: "ED128-1",
@@ -1292,7 +1292,7 @@ const itemsData = [
     dataRemarks: "kryształ",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "./mini_spinners/Mini ED128-1-7 kolczyk GB 7' jeden kolor.jpg",
     dataOwncode: "2308",
     dataCode: "ED128-1",
@@ -1303,7 +1303,7 @@ const itemsData = [
     dataRemarks: "kryształ",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "./mini_spinners/Mini ED128-1-7 kolczyk GB 7' jeden kolor.jpg",
     dataOwncode: "2309",
     dataCode: "ED128-1",
@@ -1314,7 +1314,7 @@ const itemsData = [
     dataRemarks: "kryształ",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "./mini_spinners/Mini ED128-1-7 kolczyk GB 7' jeden kolor.jpg",
     dataOwncode: "2310",
     dataCode: "ED128-1",
@@ -1325,7 +1325,7 @@ const itemsData = [
     dataRemarks: "kryształ",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "./mini_spinners/Mini ED128-1-7 kolczyk GB 7' jeden kolor.jpg",
     dataOwncode: "2306",
     dataCode: "ED128-1",
@@ -1336,7 +1336,7 @@ const itemsData = [
     dataRemarks: "kryształ",
   },
   {
-    idName: "Spinery Kolekcja GB Jeden Kolor 7'",
+    idName: "Spinery Kolekcja GB Jeden Kolor  7'",
     imgSource: "./mini_spinners/Mini ED128-1-7 kolczyk GB 7' jeden kolor.jpg",
     dataOwncode: "2311",
     dataCode: "ED128-1",
@@ -1956,7 +1956,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "",
     dataOwncode: "",
     dataCode: "",
@@ -1967,7 +1967,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D020 Anioł.png",
     dataOwncode: "3000",
     dataCode: "D020",
@@ -1978,7 +1978,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D283 Cosmicksplash.jpg",
     dataOwncode: "3001",
     dataCode: "D283",
@@ -1989,7 +1989,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D157 Zaba.jpg",
     dataOwncode: "3002",
     dataCode: "D157",
@@ -2000,7 +2000,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D331 Galacticsplash.jpg",
     dataOwncode: "3003",
     dataCode: "D331",
@@ -2011,7 +2011,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D220 Serce.png",
     dataOwncode: "3004",
     dataCode: "D220",
@@ -2022,7 +2022,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D120 Motyl.png",
     dataOwncode: "3005",
     dataCode: "D120",
@@ -2033,7 +2033,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D250 Koliber.jpg",
     dataOwncode: "3006",
     dataCode: "D250",
@@ -2044,7 +2044,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D258 Hypersplash.jpg",
     dataOwncode: "3007",
     dataCode: "D258",
@@ -2055,7 +2055,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D315 Słońce.png",
     dataOwncode: "3008",
     dataCode: "D315",
@@ -2066,7 +2066,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D351 Teardrop.jpg",
     dataOwncode: "3009",
     dataCode: "D351",
@@ -2077,7 +2077,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D282 Lunarsplash.png",
     dataOwncode: "3010",
     dataCode: "D282",
@@ -2088,7 +2088,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED012 Sunsplash.jpg",
     dataOwncode: "3011",
     dataCode: "ED012",
@@ -2099,7 +2099,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED013 splash multikolor.jpg",
     dataOwncode: "3012",
     dataCode: "ED013",
@@ -2110,7 +2110,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED131 Konie multi.jpg",
     dataOwncode: "3013",
     dataCode: "ED131",
@@ -2122,7 +2122,7 @@ const itemsData = [
   },
 
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED108 David.jpg",
     dataOwncode: "3015",
     dataCode: "ED108",
@@ -2133,7 +2133,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula MK.jpg",
     dataOwncode: "3016",
     dataCode: "ED103",
@@ -2144,7 +2144,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED055 Romb.jpg",
     dataOwncode: "3017",
     dataCode: "ED055",
@@ -2155,7 +2155,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED117 rombo multikolor.jpg",
     dataOwncode: "3018",
     dataCode: "ED117",
@@ -2166,7 +2166,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini D280 Księżyc.png",
     dataOwncode: "3019",
     dataCode: "D280",
@@ -2178,7 +2178,7 @@ const itemsData = [
   },
 
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED200 Traktor.jpg",
     dataOwncode: "3041",
     dataCode: "ED200",
@@ -2188,7 +2188,7 @@ const itemsData = [
     dataQuantity: "",
     dataRemarks: "",
   }, {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED201 Żaglówka.jpg",
     dataOwncode: "3042",
     dataCode: "ED201",
@@ -2199,7 +2199,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED202 Latarnia 2.jpg",
     dataOwncode: "3043",
     dataCode: "ED202",
@@ -2210,7 +2210,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED203 Jeleń.jpg",
     dataOwncode: "3044",
     dataCode: "ED203",
@@ -2221,7 +2221,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED204_10 MixSplash.jpg",
     dataOwncode: "3045",
     dataCode: "ED204",
@@ -2232,7 +2232,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED205 Ptaszek.jpg",
     dataOwncode: "3047",
     dataCode: "ED205",
@@ -2243,7 +2243,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED206 Super Sun.jpg",
     dataOwncode: "3046",
     dataCode: "ED206",
@@ -2254,7 +2254,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Brak.jpg",
     dataOwncode: "3028",
     dataCode: "ED502",
@@ -2265,7 +2265,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED048 Delfin.jpg",
     dataOwncode: "3029",
     dataCode: "ED048",
@@ -2276,7 +2276,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Brak.jpg",
     dataOwncode: "3030",
     dataCode: "ED504",
@@ -2287,7 +2287,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Brak.jpg",
     dataOwncode: "3031",
     dataCode: "ED505",
@@ -2298,7 +2298,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/ED506_12cali ED_11_19_MOTOR 12.jpg",
     dataOwncode: "3034",
     dataCode: "ED506",
@@ -2309,7 +2309,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED094-10 eye.jpg",
     dataOwncode: "3048",
     dataCode: "ED094",
@@ -2320,7 +2320,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED019-10 cosmicsplash.jpg",
     dataOwncode: "3049",
     dataCode: "ED019",
@@ -2331,7 +2331,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Brak.jpg",
     dataOwncode: "3051",
     dataCode: "ED507",
@@ -2342,7 +2342,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED508 -6 labrador.jpg",
     dataOwncode: "3052",
     dataCode: "ED508",
@@ -2353,7 +2353,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED509-6 Golden Retriever.jpg",
     dataOwncode: "3053",
     dataCode: "ED509",
@@ -2364,7 +2364,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Spinery Kolekcja 2D Multikolor 6'",
+    idName: "Spinery Kolekcja 2D Multikolor  6'",
     imgSource: "./mini_spinners/Mini ED514-10 konie.jpg",
     dataOwncode: "3054",
     dataCode: "ED514",
@@ -4344,6 +4344,94 @@ const itemsData = [
     dataRemarks: "",
   },
   {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1152",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "12",
+    dataItemcolor: "Niebieski",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1153",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "12",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1154",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "12",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1155",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "12",
+    dataItemcolor: "Czerwony",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1156",
+    dataCode: "1348",
+    dataName: "Smok",
+    dataItemsize: "12",
+    dataItemcolor: "Czerwony",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1157",
+    dataCode: "????",
+    dataName: "Liczyrzepa",
+    dataItemsize: "12",
+    dataItemcolor: "Srebrno Złoty",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1158",
+    dataCode: "????",
+    dataName: "Pirat",
+    dataItemsize: "12",
+    dataItemcolor: "Czerwono Czarny",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 12'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1165",
+    dataCode: "ED600",
+    dataName: "Globus",
+    dataItemsize: "12",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
     idName: "Kolekcja 2D Jeden Kolor 10'",
     imgSource: "",
     dataOwncode: "",
@@ -5444,7 +5532,73 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor 10'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1159",
+    dataCode: "????",
+    dataName: "Gerlitz",
+    dataItemsize: "10",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 10'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1160",
+    dataCode: "????",
+    dataName: "Gerlitz",
+    dataItemsize: "10",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 10'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1161",
+    dataCode: "D315",
+    dataName: "Słońce",
+    dataItemsize: "10",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 10'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1162",
+    dataCode: "D315",
+    dataName: "Słońce",
+    dataItemsize: "10",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 10'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1164",
+    dataCode: "ED600",
+    dataName: "Romb",
+    dataItemsize: "10",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor 10'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1166",
+    dataCode: "ED602",
+    dataName: "Łezka",
+    dataItemsize: "10",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "",
     dataOwncode: "",
     dataCode: "",
@@ -5455,7 +5609,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1021 Anioł.JPG",
     dataOwncode: "1000",
     dataCode: "1021",
@@ -5466,7 +5620,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1021 Anioł.JPG",
     dataOwncode: "1001",
     dataCode: "1021",
@@ -5477,7 +5631,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1045 Motyl.JPG",
     dataOwncode: "1005",
     dataCode: "1045",
@@ -5488,7 +5642,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1045 Motyl.JPG",
     dataOwncode: "1006",
     dataCode: "1045",
@@ -5499,7 +5653,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1045 Motyl.JPG",
     dataOwncode: "1007",
     dataCode: "1045",
@@ -5510,7 +5664,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1045 Motyl.JPG",
     dataOwncode: "1008",
     dataCode: "1045",
@@ -5521,7 +5675,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1045 Motyl.JPG",
     dataOwncode: "1009",
     dataCode: "1045",
@@ -5532,7 +5686,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1010",
     dataCode: "017",
@@ -5543,7 +5697,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1011",
     dataCode: "017",
@@ -5554,7 +5708,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1012",
     dataCode: "017",
@@ -5565,7 +5719,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1013",
     dataCode: "017",
@@ -5576,7 +5730,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1014",
     dataCode: "017",
@@ -5587,7 +5741,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1015",
     dataCode: "017",
@@ -5598,7 +5752,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 017 Motyl Awisza3.JPG",
     dataOwncode: "1016",
     dataCode: "017",
@@ -5609,7 +5763,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED007 Motyl-4.JPG",
     dataOwncode: "1017",
     dataCode: "ED007",
@@ -5620,7 +5774,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1055A Kot siedziacy.jpg",
     dataOwncode: "1018",
     dataCode: "1055A",
@@ -5631,7 +5785,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1055A Kot siedziacy.jpg",
     dataOwncode: "1019",
     dataCode: "1055A",
@@ -5642,7 +5796,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1026",
     dataCode: "258",
@@ -5653,7 +5807,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1027",
     dataCode: "258",
@@ -5664,7 +5818,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1028",
     dataCode: "258",
@@ -5675,7 +5829,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1029",
     dataCode: "258",
@@ -5686,7 +5840,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1030",
     dataCode: "258",
@@ -5697,7 +5851,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1031",
     dataCode: "258",
@@ -5708,7 +5862,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1032",
     dataCode: "258",
@@ -5719,7 +5873,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 258 Hypersplash.jpg",
     dataOwncode: "1033",
     dataCode: "258",
@@ -5730,7 +5884,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1085 Delfin.jpg",
     dataOwncode: "1036",
     dataCode: "1085",
@@ -5741,7 +5895,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1085 Delfin.jpg",
     dataOwncode: "1037",
     dataCode: "1085",
@@ -5752,7 +5906,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED062 smok jeden kolor.jpg",
     dataOwncode: "1038",
     dataCode: "ED062",
@@ -5763,7 +5917,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090A Ważka w trzcinie.jpg",
     dataOwncode: "1039",
     dataCode: "1090A",
@@ -5774,7 +5928,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090A Ważka w trzcinie.jpg",
     dataOwncode: "1040",
     dataCode: "1090A",
@@ -5785,7 +5939,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090A Ważka w trzcinie.jpg",
     dataOwncode: "1041",
     dataCode: "1090A",
@@ -5796,7 +5950,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090A Ważka w trzcinie.jpg",
     dataOwncode: "1042",
     dataCode: "1090A",
@@ -5807,7 +5961,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1043",
     dataCode: "ED103",
@@ -5818,7 +5972,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1044",
     dataCode: "ED103",
@@ -5829,7 +5983,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1045",
     dataCode: "ED103",
@@ -5840,7 +5994,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1046",
     dataCode: "ED103",
@@ -5851,7 +6005,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1047",
     dataCode: "ED103",
@@ -5862,7 +6016,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1048",
     dataCode: "ED103",
@@ -5873,7 +6027,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED103 Kula.jpg",
     dataOwncode: "1049",
     dataCode: "ED103",
@@ -5884,7 +6038,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090 Ważka.png",
     dataOwncode: "1050",
     dataCode: "1090",
@@ -5895,7 +6049,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090 Ważka.png",
     dataOwncode: "1051",
     dataCode: "1090",
@@ -5906,7 +6060,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090 Ważka.png",
     dataOwncode: "1052",
     dataCode: "1090",
@@ -5917,7 +6071,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1090 Ważka.png",
     dataOwncode: "1053",
     dataCode: "1090",
@@ -5928,7 +6082,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1215 Księżyc.png",
     dataOwncode: "1055",
     dataCode: "1215",
@@ -5939,7 +6093,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1215 Księżyc.png",
     dataOwncode: "1056",
     dataCode: "1215",
@@ -5950,7 +6104,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1215 Księżyc.png",
     dataOwncode: "1054",
     dataCode: "1215",
@@ -5961,7 +6115,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1121 Wróżka Kiss.png",
     dataOwncode: "1055",
     dataCode: "1121",
@@ -5972,7 +6126,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1121 Wróżka Kiss.png",
     dataOwncode: "1056",
     dataCode: "1121",
@@ -5983,7 +6137,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1121 Wróżka Kiss.png",
     dataOwncode: "1057",
     dataCode: "1121",
@@ -5994,7 +6148,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1275 Żaglówka.JPG",
     dataOwncode: "1058",
     dataCode: "1275",
@@ -6005,7 +6159,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1275 Żaglówka.JPG",
     dataOwncode: "1059",
     dataCode: "1275",
@@ -6016,7 +6170,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1275 Żaglówka.JPG",
     dataOwncode: "1060",
     dataCode: "1275",
@@ -6027,7 +6181,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1155 Żaba.JPG",
     dataOwncode: "1063",
     dataCode: "1155",
@@ -6038,7 +6192,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED060 Latarnia.JPG",
     dataOwncode: "1064",
     dataCode: "ED060",
@@ -6049,7 +6203,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED060 Latarnia.JPG",
     dataOwncode: "1065",
     dataCode: "ED060",
@@ -6060,7 +6214,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1195 Latarnia.JPG",
     dataOwncode: "1066",
     dataCode: "1195",
@@ -6071,7 +6225,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1195 Latarnia.JPG",
     dataOwncode: "1067",
     dataCode: "1195",
@@ -6082,7 +6236,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1170 Serce Klasyk.JPG",
     dataOwncode: "1068",
     dataCode: "1170",
@@ -6093,7 +6247,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1170 Serce Klasyk.JPG",
     dataOwncode: "1069",
     dataCode: "1170",
@@ -6104,7 +6258,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1170 Serce Klasyk.JPG",
     dataOwncode: "1070",
     dataCode: "1170",
@@ -6115,7 +6269,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1170B Serce-2 serduszka.JPG",
     dataOwncode: "1071",
     dataCode: "1170B",
@@ -6126,7 +6280,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED131 Konie.JPG",
     dataOwncode: "1072",
     dataCode: "ED131",
@@ -6137,7 +6291,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED131 Konie.JPG",
     dataOwncode: "1073",
     dataCode: "ED131",
@@ -6148,7 +6302,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED020 konie jeden kolor.JPG",
     dataOwncode: "1074",
     dataCode: "ED020",
@@ -6159,7 +6313,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED020 konie jeden kolor.JPG",
     dataOwncode: "1075",
     dataCode: "ED020",
@@ -6170,7 +6324,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1175 Konie w Biegu.JPG",
     dataOwncode: "1076",
     dataCode: "1175",
@@ -6181,7 +6335,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1175 Konie w Biegu.JPG",
     dataOwncode: "1077",
     dataCode: "1175",
@@ -6192,7 +6346,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1190 Biedronka.JPG",
     dataOwncode: "1078",
     dataCode: "1190",
@@ -6203,7 +6357,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1345 Jednorożec.JPG",
     dataOwncode: "1080",
     dataCode: "1345",
@@ -6214,7 +6368,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1345 Jednorożec.JPG",
     dataOwncode: "1079",
     dataCode: "1345",
@@ -6225,7 +6379,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1345 Jednorożec.JPG",
     dataOwncode: "1081",
     dataCode: "1345",
@@ -6236,7 +6390,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1345 Jednorożec.JPG",
     dataOwncode: "1082",
     dataCode: "1345",
@@ -6247,7 +6401,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1345 Jednorożec.JPG",
     dataOwncode: "1083",
     dataCode: "1345",
@@ -6258,7 +6412,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1230 Nutka.png",
     dataOwncode: "1084",
     dataCode: "1230",
@@ -6269,7 +6423,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1230 Nutka.png",
     dataOwncode: "1085",
     dataCode: "1230",
@@ -6280,7 +6434,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1225 Motor.png",
     dataOwncode: "1086",
     dataCode: "1225",
@@ -6291,7 +6445,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED051 Liść maryhy.jpg",
     dataOwncode: "1087",
     dataCode: "ED051",
@@ -6302,7 +6456,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED093 Piesek-szczeniak.JPG",
     dataOwncode: "1090",
     dataCode: "ED093",
@@ -6313,7 +6467,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1185 Koliber.JPG",
     dataOwncode: "1092",
     dataCode: "1185",
@@ -6324,7 +6478,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1185 Koliber.JPG",
     dataOwncode: "1093",
     dataCode: "1185",
@@ -6335,7 +6489,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1185 Koliber.JPG",
     dataOwncode: "1091",
     dataCode: "1185",
@@ -6346,7 +6500,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1185 Koliber.JPG",
     dataOwncode: "1094",
     dataCode: "1185",
@@ -6357,7 +6511,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1185 Koliber.JPG",
     dataOwncode: "1095",
     dataCode: "1185",
@@ -6368,7 +6522,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1290 Splash.png",
     dataOwncode: "1096",
     dataCode: "1290",
@@ -6379,7 +6533,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1290 Splash.png",
     dataOwncode: "1097",
     dataCode: "1290",
@@ -6390,7 +6544,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1290 Splash.png",
     dataOwncode: "1098",
     dataCode: "1290",
@@ -6401,7 +6555,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1290 Splash.png",
     dataOwncode: "1099",
     dataCode: "1290",
@@ -6412,7 +6566,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1290 Splash.png",
     dataOwncode: "1100",
     dataCode: "1290",
@@ -6423,7 +6577,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1290 Splash.png",
     dataOwncode: "1101",
     dataCode: "1290",
@@ -6434,7 +6588,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED066 Ważka shape.jpg",
     dataOwncode: "1102",
     dataCode: "ED066",
@@ -6445,7 +6599,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED066 Ważka shape.jpg",
     dataOwncode: "1103",
     dataCode: "ED066",
@@ -6456,7 +6610,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop3 Listek.jpg",
     dataOwncode: "1105",
     dataCode: "Drop3",
@@ -6467,7 +6621,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop3 Listek.jpg",
     dataOwncode: "1104",
     dataCode: "Drop3",
@@ -6478,7 +6632,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop3 Listek.jpg",
     dataOwncode: "1106",
     dataCode: "Drop3",
@@ -6489,7 +6643,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop3 Listek.jpg",
     dataOwncode: "1107",
     dataCode: "Drop3",
@@ -6500,7 +6654,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop3 Listek.jpg",
     dataOwncode: "1108",
     dataCode: "Drop3",
@@ -6511,7 +6665,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop3 Listek.jpg",
     dataOwncode: "1109",
     dataCode: "Drop3",
@@ -6522,7 +6676,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1324 Łezka.jpg",
     dataOwncode: "1110",
     dataCode: "1324",
@@ -6533,7 +6687,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1324 Łezka.jpg",
     dataOwncode: "1111",
     dataCode: "1324",
@@ -6544,7 +6698,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1324 Łezka.jpg",
     dataOwncode: "1112",
     dataCode: "1324",
@@ -6555,7 +6709,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1324 Łezka.jpg",
     dataOwncode: "1113",
     dataCode: "1324",
@@ -6566,7 +6720,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1324 Łezka.jpg",
     dataOwncode: "1114",
     dataCode: "1324",
@@ -6577,7 +6731,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1324 Łezka.jpg",
     dataOwncode: "1115",
     dataCode: "1324",
@@ -6588,7 +6742,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED012 Słońce splash.jpg",
     dataOwncode: "1116",
     dataCode: "ED012",
@@ -6599,7 +6753,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED012 Słońce splash.jpg",
     dataOwncode: "1117",
     dataCode: "ED012",
@@ -6610,7 +6764,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1305 Słońce.png",
     dataOwncode: "1118",
     dataCode: "1305",
@@ -6621,7 +6775,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1305 Słońce.png",
     dataOwncode: "1119",
     dataCode: "1305",
@@ -6632,7 +6786,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1305 Słońce.png",
     dataOwncode: "1120",
     dataCode: "1305",
@@ -6643,7 +6797,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 63 Słońce Wawa.jpg",
     dataOwncode: "1121",
     dataCode: "063",
@@ -6654,7 +6808,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 63 Słońce Wawa.jpg",
     dataOwncode: "1122",
     dataCode: "063",
@@ -6665,7 +6819,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1315 Sunburst.JPG",
     dataOwncode: "1123",
     dataCode: "1315",
@@ -6676,7 +6830,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1315 Sunburst.JPG",
     dataOwncode: "1124",
     dataCode: "1315",
@@ -6687,7 +6841,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1315 Sunburst.JPG",
     dataOwncode: "1125",
     dataCode: "1315",
@@ -6698,7 +6852,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1310 Słońce secesja.JPG",
     dataOwncode: "1126",
     dataCode: "1310",
@@ -6709,7 +6863,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1310 Słońce secesja.JPG",
     dataOwncode: "1127",
     dataCode: "1310",
@@ -6720,7 +6874,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1310 Słońce secesja.JPG",
     dataOwncode: "1128",
     dataCode: "1310",
@@ -6731,7 +6885,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1130",
     dataCode: "088",
@@ -6742,7 +6896,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1131",
     dataCode: "088",
@@ -6753,7 +6907,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1129",
     dataCode: "088",
@@ -6764,7 +6918,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1132",
     dataCode: "088",
@@ -6775,7 +6929,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1133",
     dataCode: "088",
@@ -6786,7 +6940,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1134",
     dataCode: "088",
@@ -6797,7 +6951,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 088 Romb.JPG",
     dataOwncode: "1135",
     dataCode: "088",
@@ -6808,7 +6962,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop2 Gruszka.JPG",
     dataOwncode: "1136",
     dataCode: "Drop2",
@@ -6819,7 +6973,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop2 Gruszka.JPG",
     dataOwncode: "1137",
     dataCode: "Drop2",
@@ -6830,7 +6984,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop2 Gruszka.JPG",
     dataOwncode: "1138",
     dataCode: "Drop2",
@@ -6841,7 +6995,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop2 Gruszka.JPG",
     dataOwncode: "1139",
     dataCode: "Drop2",
@@ -6852,7 +7006,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop2 Gruszka.JPG",
     dataOwncode: "1140",
     dataCode: "Drop2",
@@ -6863,7 +7017,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini Drop2 Gruszka.JPG",
     dataOwncode: "1141",
     dataCode: "Drop2",
@@ -6874,7 +7028,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 046B Kwadrat.JPG",
     dataOwncode: "1143",
     dataCode: "046B",
@@ -6885,7 +7039,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 046B Kwadrat.JPG",
     dataOwncode: "1144",
     dataCode: "046B",
@@ -6896,7 +7050,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 046B Kwadrat.JPG",
     dataOwncode: "1145",
     dataCode: "046B",
@@ -6907,7 +7061,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 046B Kwadrat.JPG",
     dataOwncode: "1146",
     dataCode: "046B",
@@ -6918,7 +7072,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 046B Kwadrat.JPG",
     dataOwncode: "1147",
     dataCode: "046B",
@@ -6929,7 +7083,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 046B Kwadrat.JPG",
     dataOwncode: "1142",
     dataCode: "046B",
@@ -6940,7 +7094,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1280 Koniczyna 3 listna.JPG",
     dataOwncode: "1148",
     dataCode: "1280",
@@ -6951,7 +7105,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1075 Krzyż.JPG",
     dataOwncode: "1149",
     dataCode: "1075",
@@ -6962,7 +7116,7 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini 1075 Krzyż.JPG",
     dataOwncode: "1150",
     dataCode: "1075",
@@ -6973,13 +7127,134 @@ const itemsData = [
     dataRemarks: "",
   },
   {
-    idName: "Kolekcja 2D Jeden Kolor 6'",
+    idName: "Kolekcja 2D Jeden Kolor  6'",
     imgSource: "./mini_spinners/Mini ED014 SunRay outline.JPG",
     dataOwncode: "1151",
     dataCode: "ED014",
     dataName: "SunRay",
     dataItemsize: "6",
     dataItemcolor: "Niebieski",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1152",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "6",
+    dataItemcolor: "Niebieski",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1153",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "6",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1154",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "6",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1155",
+    dataCode: "017J",
+    dataName: "Motyl Ażur",
+    dataItemsize: "6",
+    dataItemcolor: "Czerwony",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1156",
+    dataCode: "1348",
+    dataName: "Smok",
+    dataItemsize: "6",
+    dataItemcolor: "Czerwony",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1159",
+    dataCode: "????",
+    dataName: "Gerlitz",
+    dataItemsize: "6",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1160",
+    dataCode: "????",
+    dataName: "Gerlitz",
+    dataItemsize: "6",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1161",
+    dataCode: "D315",
+    dataName: "Słońce",
+    dataItemsize: "6",
+    dataItemcolor: "Srebro",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1162",
+    dataCode: "D315",
+    dataName: "Słońce",
+    dataItemsize: "6",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1163",
+    dataCode: "ED201",
+    dataName: "Żaglówka",
+    dataItemsize: "6",
+    dataItemcolor: "Złoto",
+    dataQuantity: "",
+    dataRemarks: "",
+  },
+  {
+    idName: "Kolekcja 2D Jeden Kolor  6'",
+    imgSource: "./mini_spinners/Brak.JPG",
+    dataOwncode: "1166",
+    dataCode: "ED602",
+    dataName: "Łezka",
+    dataItemsize: "6",
+    dataItemcolor: "Srebro",
     dataQuantity: "",
     dataRemarks: "",
   },
