@@ -12,13 +12,13 @@ class SummaryOrder extends Component {
     sortedOrder.forEach((item, i) => {
       // console.log(i, item.idName);
     });
-    console.log(sortedOrder);
+    // console.log(sortedOrder);
 
     let summaryArray = []; // tablica zawierająca podsumowanie zamówienia
     let itemKind;
     sortedOrder.forEach(item => {
       if (itemKind !== item.idName) {
-        console.log(item.idName);
+        // console.log(item.idName);
         itemKind = item.idName;
         summaryArray.push({ idName: itemKind, lines: 0, itemsCount: 0 })
       }
@@ -38,7 +38,7 @@ class SummaryOrder extends Component {
 
     return (
       <>
-        <button className='button_print' onClick={this.handlePrint}>Drukuj zamówienie</button>
+        <button className='button_print' onClick={this.handlePrint}>Drukuj podsumowanie</button>
         <div className="printSummary">
 
           <h2>
@@ -70,7 +70,7 @@ class SummaryOrder extends Component {
                   {sortedOrder.map((sortedItem, index) => {
 
                     if (summaryItem.idName === sortedItem.idName) {
-                      console.log('jestem');
+
                       return (
                         <>
                           <tr className='list' key={index}>

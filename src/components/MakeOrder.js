@@ -81,7 +81,7 @@ class MakeOrder extends Component {
     // console.log(e.target.alt);
     // console.log(e.target.dataset.code);
     // console.log(e.target.dataset.name);
-    console.log(e.target.dataset.idname);
+    // console.log(e.target.dataset.idname);
     let orderLine = { ...this.state.orderLine, name: e.target.dataset.name };
     orderLine = { ...orderLine, size: e.target.dataset.itemsize };
     orderLine = { ...orderLine, code: e.target.dataset.code };

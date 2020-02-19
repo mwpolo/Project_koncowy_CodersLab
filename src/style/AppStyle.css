@@ -461,3 +461,61 @@ div.graphics_window{
 }
 
 /* ******End of style <SummaryOrder/> */
+
+/* ******Style of <Help/> */
+.help_wrapper ul{
+margin-left: 50px;
+}
+.help_wrapper ol{
+  margin-left: 50px;
+  }
+.help_wrapper {
+  font-size: 18px;
+}
+
+.help_wrapper h3{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.help_wrapper h4{
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+
+.help_wrapper p{
+  margin-top: 20px;
+  margin-left: 30px
+}
+.help_wrapper a{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+img.helpScreens{
+  max-width: 800px;
+  max-height:450px
+}
+div.helpScreens{
+  margin: 5px;
+  border: 2px solid black;
+  display: inline-block;
+}
+.help_topPage{
+  background-color: cadetblue;
+  padding: 5px 50px;
+  margin: 20px;
+  margin-left: 40%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.help_topPage:hover{
+  background-color: aqua;
+}
+
+/* ******End of style <Help/> */

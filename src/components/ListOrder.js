@@ -8,7 +8,7 @@ const ListOrder = ({ order, deleteLine, handleChangeLine }) => {
     localStorage.setItem("lastOrder", JSON.stringify(store.getState()));
   }
   if (order.length) {
-    console.log(order[0].orderName);
+    // console.log(order[0].orderName);
 
     return (
       <>
