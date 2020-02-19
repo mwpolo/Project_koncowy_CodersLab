@@ -292,7 +292,7 @@ tr:nth-child(2n){
   background-color: white;
 }
 div.products_main_page>img{
-  width: 25%;
+  max-width: 25%;
   cursor: auto;
   max-height: fit-content;
 }

@@ -35,7 +35,7 @@ const Help = () => {
         <h3 id="help_makeOrder">1. Panel - Utwórz</h3>
         <h4>1.1 Widok ogólny </h4>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/makeOrder-screen.jpg" alt="makeOrder panel" />
+          <img className="helpScreens" src="./helpScreens/makeOrder-screen.jpg" alt="makeOrder panel" />
         </div>
         <p>
           Na zdjęciu przedstawiony jest widok ekranu po naciśnięciu  przycisku <strong>UTWÓRZ</strong> przed rozpoczęciem dodawania produktów do zamówienia.
@@ -61,7 +61,7 @@ const Help = () => {
           <li>Wpisz w polu formularza ilość zamawianych produktów;</li>
           <li>Jeśli zamawiasz spinery GB - wpisz w polu formularza "UWAGI" czy ma być dodany kryształ czy kula;</li>
           <li>Wpisz nr zamówienia - możesz to zrobić teraz lub później np. pod koniec dodawania produktów do zamówienia </li>
-          <li>Kliknij przycisk " Dodaj do zamówienia"; </li>
+          <li>Kliknij przycisk " Dodaj do zamówienia" lub wciśnij klawisz "Enter"; </li>
 
 
         </ol>
@@ -81,7 +81,7 @@ const Help = () => {
           1.3 Zmiana lub usunięcie pozycji z zamówienia
         </h4>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/makeOrder-screen1.jpg" alt="makeOrder panel" />
+          <img className="helpScreens" src="./helpScreens/makeOrder-screen1.jpg" alt="makeOrder panel" />
         </div>
 
         <p>
@@ -113,14 +113,14 @@ const Help = () => {
         <h3 id="help_summaryOrder">2. Podsumuj</h3>
         <h4>2.1 Widok ogólny </h4>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/summaryOrder-screen.jpg" alt="summaryOrder panel" />
+          <img className="helpScreens" src="./helpScreens/summaryOrder-screen.jpg" alt="summaryOrder panel" />
         </div>
         <p>
           W panelu tym prezentowane jest aktualne zamówienie zawierające podział wszystkich produktów na poszczególne kategorie oraz ich zsumowanie w poszczególnych kategoriach.
         </p>
         <h4>2.2 Wydruk podsumowania </h4>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/summaryOrder-screen1.jpg" alt="summaryOrder panel" />
+          <img className="helpScreens" src="./helpScreens/summaryOrder-screen1.jpg" alt="summaryOrder panel" />
         </div>
         <p>
           Klikając przycisk "Drukuj podsumowanie" można wydrukować podsumowanie zamówienia, ewentualnie zapisać je do pliku .pdf - o ile sterowniki wydruku to umożliwiają.
@@ -132,7 +132,7 @@ const Help = () => {
         <h3 id="help_printOrder">3. Drukuj</h3>
         <h4>3.1 Widok ogólny </h4>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/printOrder-screen.jpg" alt="printOrder panel" />
+          <img className="helpScreens" src="./helpScreens/printOrder-screen.jpg" alt="printOrder panel" />
         </div>
         <h4>3.2 Wydruk zamówienia </h4>
         <p>
@@ -152,7 +152,7 @@ const Help = () => {
         <h4>4.1 Widok ogólny </h4>
         <p>Przed wczytaniem zamówienia</p>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/loadOrder-screen.jpg" alt="loadOrder panel" />
+          <img className="helpScreens" src="./helpScreens/loadOrder-screen.jpg" alt="loadOrder panel" />
         </div>
         <h4>4.2 Wczytanie ostatnio edytowanego zamówienia </h4>
         <p>Program umożliwia wczytanie ostatnio edytowanego zamówienia. Może to być   przydatne w sytuacji omyłkowego zamknięcia okna przeglądarki lub gdy chcemy kontynuować tworzenie zamówienia po jakimś czasie.
@@ -162,7 +162,7 @@ const Help = () => {
           Widok po wczytaniu zamówienia
         </p>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/loadOrder-screen1.jpg" alt="loadOrder panel" />
+          <img className="helpScreens" src="./helpScreens/loadOrder-screen1.jpg" alt="loadOrder panel" />
         </div>
         <h4>4.2 Wczytanie zamówienia z dysku </h4>
         <p>
@@ -180,7 +180,7 @@ const Help = () => {
 
         </p>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/loadOrder-screen2.jpg" alt="loadOrder panel" />
+          <img className="helpScreens" src="./helpScreens/loadOrder-screen2.jpg" alt="loadOrder panel" />
         </div>
       </section>
       <Link to="#help_topPage"><button className='help_topPage'> Powrót na początek strony</button> </Link>
@@ -189,7 +189,7 @@ const Help = () => {
         <h3 id="help_saveOrder">5. Zapisz</h3>
         <h4>5.1 Widok ogólny </h4>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/saveOrder-screen.jpg" alt="saveOrder panel" />
+          <img className="helpScreens" src="./helpScreens/saveOrder-screen.jpg" alt="saveOrder panel" />
         </div>
         <p>
           Aby zapisać plik w formacie .csv na dysk, należy wpisać jego nazwę w pole formularza - jeśli chcemy aby plik miał inna nazwę niż numer zamówienia.
@@ -205,7 +205,7 @@ const Help = () => {
           <br /><br />
         </p>
         <div className="helpScreens">
-          <img className="helpScreens" src="../helpScreens/saveOrder-screen1.jpg" alt="saveOrder panel" />
+          <img className="helpScreens" src="./helpScreens/saveOrder-screen1.jpg" alt="saveOrder panel" />
         </div>
       </section>
       <Link to="#help_topPage"><button className='help_topPage'> Powrót na początek strony</button> </Link>
