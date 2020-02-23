@@ -185,6 +185,7 @@ class MakeOrder extends Component {
               <option value="Spinery Kolekcja GB Jeden Kolor 12'">Spinery Kolekcja GB Jeden Kolor 12'</option>
               <option value="Spinery Kolekcja GB Jeden Kolor 10'">Spinery Kolekcja GB Jeden Kolor 10'</option>
               <option value="Spinery Kolekcja GB Jeden Kolor  7'">Spinery Kolekcja GB Jeden Kolor 7'</option>
+              <option value="Spinery Kolekcja 2D Multikolor 15'">Spinery Kolekcja 2D Multikolor 15'</option>
               <option value="Spinery Kolekcja 2D Multikolor 12'">Spinery Kolekcja 2D Multikolor 12'</option>
               <option value="Spinery Kolekcja 2D Multikolor 10'">Spinery Kolekcja 2D Multikolor 10'</option>
               <option value="Spinery Kolekcja 2D Multikolor  6'">Spinery Kolekcja 2D Multikolor  6'</option>
